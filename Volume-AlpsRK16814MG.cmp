@@ -1,0 +1,52 @@
+Cmp-Mod V01 Created by CvPcb (25-Oct-2014 BZR 4029)-stable date = Fri 20 Mar 2015 11:28:27 PM CDT
+
+BeginCmp
+TimeStamp = /550CAD46;
+Reference = C1;
+ValeurCmp = 100n;
+IdModule  = mfk-C_4.0_2.5_2.5_0.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /550CCE69;
+Reference = P1;
+ValeurCmp = AB I/O;
+IdModule  = mfk-TE_282834-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /550CCF9F;
+Reference = P2;
+ValeurCmp = CD I/O;
+IdModule  = mfk-TE_282834-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /550CCC99;
+Reference = P3;
+ValeurCmp = VD;
+IdModule  = mfk-TE_282834-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /550CCCA8;
+Reference = P4;
+ValeurCmp = CTRL;
+IdModule  = mfk-TE_282834-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /550CA765;
+Reference = RV1;
+ValeurCmp = RK16814MG;
+IdModule  = mfk-ALPS_RK16814MG;
+EndCmp
+
+BeginCmp
+TimeStamp = /550CA683;
+Reference = U1;
+ValeurCmp = SN754410;
+IdModule  = mfk-DIP-16_AriesC84_e;
+EndCmp
+
+EndListe
