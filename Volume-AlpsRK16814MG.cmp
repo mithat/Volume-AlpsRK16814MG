@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (25-Oct-2014 BZR 4029)-stable date = Fri 20 Mar 2015 11:28:27 PM CDT
+Cmp-Mod V01 Created by CvPcb (25-Oct-2014 BZR 4029)-stable date = Sat 21 Mar 2015 02:20:03 AM CDT
 
 BeginCmp
 TimeStamp = /550CAD46;
@@ -33,6 +33,13 @@ TimeStamp = /550CCCA8;
 Reference = P4;
 ValeurCmp = CTRL;
 IdModule  = mfk-TE_282834-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /550D1AD1;
+Reference = P5;
+ValeurCmp = GND;
+IdModule  = mfk-AVA-20ga;
 EndCmp
 
 BeginCmp
