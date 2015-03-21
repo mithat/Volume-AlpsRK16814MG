@@ -1,9 +1,16 @@
-Cmp-Mod V01 Created by CvPcb (25-Oct-2014 BZR 4029)-stable date = Sat 21 Mar 2015 02:20:03 AM CDT
+Cmp-Mod V01 Created by CvPcb (25-Oct-2014 BZR 4029)-stable date = Sat 21 Mar 2015 03:35:24 AM CDT
 
 BeginCmp
 TimeStamp = /550CAD46;
 Reference = C1;
 ValeurCmp = 100n;
+IdModule  = mfk-C_4.0_2.5_2.5_0.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /550D2A54;
+Reference = C2;
+ValeurCmp = 1u;
 IdModule  = mfk-C_4.0_2.5_2.5_0.5;
 EndCmp
 
