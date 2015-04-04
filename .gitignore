@@ -1,6 +1,8 @@
 *.bak
-*.kicad_pcb-bak
-*.ses
 *.dsn
-*.zip
+*.ses
+*.kicad_pcb-bak
+/*.zip
+/*.pdf
+/*.svg
 Gerbers/*

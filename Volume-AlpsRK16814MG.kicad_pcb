@@ -21,8 +21,8 @@
   )
 
   (layers
-    (15 F.Cu signal hide)
-    (0 B.Cu signal hide)
+    (15 F.Cu signal)
+    (0 B.Cu signal)
     (20 B.SilkS user)
     (21 F.SilkS user)
     (22 B.Mask user)
