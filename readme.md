@@ -40,10 +40,11 @@ First, owing to the voltage drop across the Darlington H-bridge, the optimum
 voltage for `V_MOT` is 6 VDC. When `V_MOT` is 5 VDC, the resulting voltage
 delivered to the Alps RK16814MG's motor falls below Alps' specified minimum. 
 However, the motor seems to have no problem operating at this lower than 
-specified voltage. Second, the motor's maximum current consumption is 
-150 mA. This is beyond the capacity of, for example, many Arduinos' on-board 
-voltage regulators. Therefore, if you opt to jumper J1, you may have to use an
-external logic supply if you are using something like an Arduino for control.
+specified voltage. Second, the motor's maximum specified current consumption is 
+150 mA. This is beyond the capacity of, for example, the on-board regulators
+found on many Arduinos. Therefore, if you opt to jumper J1, you may have to use 
+an external logic supply if you are using something like an Arduino for 
+control.
 
 ### Grounding
 The logic supply ground is completely isolated from other grounds. For the love 
@@ -63,17 +64,17 @@ signal ground.
 
 ### Use
 While it's possible to use the **Volume-AlpsRK16814MG** PCB for applications 
-other than volume control, we will assume that you will be using it for volume 
+other than volume control, we assume that you will be using it for volume 
 control.
 
 The Alps RK16814MG consists of two gangs of dual potentiometers. Refer to the
 table above for the PCB's I/O corresponding to these.
 
-For regular (non-differential) stereo use, you have the option of using one 
-gang (e.g., A and B) or one potentiometer from from each gang (e.g., A and C).
+For regular (non-differential) stereo use, you have the option of using both
+elements of one gang (e.g., A and B) or one element from from each gang (e.g., 
+A and C).
 
-For differential stereo control, both potentiometers on both gangs will be 
-required.
+For differential stereo control, both elements on both gangs will be required.
 
 To rotate the potentiometer CW (i.e., up), apply a logical 1 to `VOL_UP` and a
 logical 0 to `VOL_DOWN`. To rotate the potentiometer CCW (i.e., down), apply a 
