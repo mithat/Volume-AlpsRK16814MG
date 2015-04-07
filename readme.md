@@ -83,7 +83,7 @@ logical 1 is applied to both `VOL_UP` and `VOL_DOWN` simultaneously.
 
 License
 -------
-CERN Open Hardware Licence v1.2 
+CERN Open Hardware License v1.2 
 
 Copyright
 ---------
