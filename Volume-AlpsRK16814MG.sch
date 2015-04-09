@@ -39,7 +39,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "ALPS RK16816MG with H-bridge"
-Date "4 apr 2015"
+Date "9 apr 2015"
 Rev ""
 Comp "Mithat Konar"
 Comment1 "Copyright (C) 2015 Mithat Konar"
@@ -530,7 +530,7 @@ C0 58 82 E0 69 86 37 6D 0B A7 C2 93 89 E9 5D C5 88 2A 90 FC 74 0B B0 01 D5 F6 29
 56 96 2D 0B ED F6 7F C2 CC A3 57 85 CF 8C 0D E1 5F 0E 87 B5 3C 11 5E EB 0D 32 F1 5C 0A B0 54 C9 
 63 98 05 E1 6B C4 72 91 8E EA 95 27 8C 4B 0B 6B 30 6B 95 2D 08 DF 47 79 14 D8 40 20 A9 90 96 2D 
 E1 E7 3D C6 74 F3 E0 6E B9 00 E4 0E CC EC 2A 00 9E 03 F9 2E 43 53 93 3B E7 B1 3D FE 0F E4 2C B5 
-B8 3A B8 3B 5D 00 00 00 00 49 45 4E 44 AE 42 60 82 AC $EndBitmap
+B8 3A B8 3B 5D 00 00 00 00 49 45 4E 44 AE 42 60 82 33 $EndBitmap
 EndData
 $EndBitmap
 Wire Wire Line
@@ -551,8 +551,8 @@ $EndComp
 Wire Wire Line
 	5350 4400 5350 4700
 Connection ~ 5350 4600
-Text Notes 5050 4800 0    40   ~ 0
-chassis ground
+Text Notes 5150 4850 0    40   ~ 0
+CHASSIS GND
 $Comp
 L GND #PWR010
 U 1 1 550CFBE5
@@ -565,7 +565,7 @@ F 3 "" H 5350 6250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 5150 6400 0    40   ~ 0
-chassis ground
+CHASSIS GND
 $Comp
 L PWR_FLAG #FLG011
 U 1 1 550CFBF4

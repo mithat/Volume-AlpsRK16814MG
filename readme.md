@@ -1,12 +1,13 @@
 Volume-AlpsRK16814MG
 ====================
 
-Alps RK16814MG motorized potentiometer with H-bridge motor drive.
+_Because volume control is free and for the people.™_
 
 Description
 -----------
 [KiCad](http://www.kicad-pcb.org) design files for a PCB that integrates an 
-Alps RK16814MG motorized potentiometer and an H bridge to drive the motor.
+Alps RK16814MG motorized potentiometer with an H bridge to drive the motor
+using logic-level signals.
 
 ### Inputs and outputs
 
