@@ -1,4 +1,4 @@
-update=Sun 12 May 2019 06:40:17 PM CDT
+update=Sun 12 May 2019 06:38:49 PM CDT
 version=1
 last_client=kicad
 [general]
@@ -57,3 +57,38 @@ LibName25=valves
 [eeschema]
 version=1
 LibDir=
+[eeschema/libraries]
+LibName1=Volume-AlpsRK16814MG-rescue
+LibName2=/home/mithat/Electronics/kicad/lib/kicad-components-mfk/mfk_alps
+LibName3=/home/mithat/Electronics/kicad/lib/kicad-components-mfk/mfk_connector
+LibName4=/home/mithat/Electronics/kicad/lib/kicad-components-mfk/mfk_interface
+LibName5=power
+LibName6=device
+LibName7=transistors
+LibName8=conn
+LibName9=linear
+LibName10=regul
+LibName11=74xx
+LibName12=cmos4000
+LibName13=adc-dac
+LibName14=memory
+LibName15=xilinx
+LibName16=special
+LibName17=microcontrollers
+LibName18=dsp
+LibName19=microchip
+LibName20=analog_switches
+LibName21=motorola
+LibName22=texas
+LibName23=intel
+LibName24=audio
+LibName25=interface
+LibName26=digital-audio
+LibName27=philips
+LibName28=display
+LibName29=cypress
+LibName30=siliconi
+LibName31=opto
+LibName32=atmel
+LibName33=contrib
+LibName34=valves
