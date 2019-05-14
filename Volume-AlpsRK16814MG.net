@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/mithat/Electronics/Arduino-RC/PCB/cloned-from-my-own/Volume-AlpsRK16814MG/Volume-AlpsRK16814MG.sch)
-    (date "Sun 12 May 2019 06:59:39 PM CDT")
+    (date "Sun 12 May 2019 07:03:39 PM CDT")
     (tool "Eeschema 5.0.2+dfsg1-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -30,7 +30,7 @@
       (tstamp 550CAD46))
     (comp (ref P4)
       (value CTRL)
-      (footprint mfk-connector:TE_282834-3)
+      (footprint mfk-connector:TE_282834-2)
       (libsource (lib Volume-AlpsRK16814MG-rescue) (part CONN_2) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 550CCCA8))
