@@ -5,9 +5,12 @@ _Because volume control is free and for the people.™_
 
 Description
 -----------
-[KiCad](http://www.kicad-pcb.org) design files for a PCB that integrates an 
+[KiCad 3](http://www.kicad-pcb.org) design files for a PCB that integrates an 
 Alps RK16814MG motorized potentiometer with an H bridge to drive the motor
 using logic-level signals.
+
+### Version note
+This branch contains the original project files for the now obsolete KiCad 3. Other branches may have files for more recent versions of KiCad.   
 
 ### Inputs and outputs
 
