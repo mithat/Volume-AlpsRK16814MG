@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Volume-AlpsRK16814MG)(type KiCad)(uri ${KIPRJMOD}/footprints/Volume-AlpsRK16814MG.pretty)(options "")(descr ""))
+)

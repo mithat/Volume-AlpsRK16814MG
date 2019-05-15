@@ -1,0 +1,12 @@
+(module mfk-1pin:AVA-20ga (layer F.Cu) (tedit 5CD8B971)
+  (descr "20 ga. pad (0.020\" hole)")
+  (tags "20ga 1pin")
+  (fp_text reference P5 (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.1524)))
+  )
+  (fp_text value GND (at 0 0) (layer Dwgs.User) hide
+    (effects (font (size 1.524 1.524) (thickness 0.1524)))
+  )
+  (fp_circle (center 0 0) (end 1.4732 -0.254) (layer F.SilkS) (width 0.254))
+  (pad 1 thru_hole circle (at 0 0) (size 2.6416 2.6416) (drill 1.3208) (layers *.Cu *.Mask F.SilkS))
+)
